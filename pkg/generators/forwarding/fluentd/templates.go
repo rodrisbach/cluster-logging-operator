@@ -390,7 +390,7 @@ const inputSourceContainerTemplate = `{{- define "inputSourceContainerTemplate" 
   {{else}}
   path "/var/log/containers/*.log"
   {{end -}}
-  exclude_path ["/var/log/containers/{{.CollectorPodNamePrefix}}-*_{{.LoggingNamespace}}_*.log", "/var/log/containers/{{.LogStorePodNamePrefix}}-*_{{.LoggingNamespace}}_*.log", "/var/log/containers/{{.VisualizationPodNamePrefix}}-*_{{.LoggingNamespace}}_*.log"]
+  exclude_path ["/var/log/containers/{{.CollectorPodNamePrefix}}-*_{{.LoggingNamespace}}_*.log", "/var/log/containers/{{.LogStorePodNamePrefix}}-*_{{.LoggingNamespace}}_*.log", "/var/log/containers/{{.VisualizationPodNamePrefix}}-*_{{.LoggingNamespace}}_*.log", "/var/log/containers/olm_operator-*.log", "/var/log/containers/*_olm_*.log", "/var/log/containers/*_openshift-operator-lifecycle-manager_*.log", "/var/log/containers/*_kiali-operator_*.log", "/var/log/containers/*_istio_system_*.log"]
   pos_file "/var/log/es-containers.log.pos"
   pos_file_compaction_interval 1800
   refresh_interval 5
