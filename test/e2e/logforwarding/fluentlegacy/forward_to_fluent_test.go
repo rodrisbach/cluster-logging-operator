@@ -12,10 +12,10 @@ import (
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/openshift/cluster-logging-operator/pkg/k8shandler"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
-	"github.com/openshift/cluster-logging-operator/test/helpers"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
+	"github.com/rodrisbach/cluster-logging-operator/test/helpers"
 )
 
 // This test verifies we still support managed CL and forwarding without enabling the LogForwarding

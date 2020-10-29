@@ -9,9 +9,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	collector "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	logforward "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	collector "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	logforward "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
 	client "sigs.k8s.io/controller-runtime/pkg/client"
 )
 

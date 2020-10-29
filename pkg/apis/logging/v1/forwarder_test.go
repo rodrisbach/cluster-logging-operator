@@ -6,8 +6,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	"github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1/outputs"
+	. "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1/outputs"
 )
 
 var _ = Describe("ClusterLogForwarderSpec", func() {

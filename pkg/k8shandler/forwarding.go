@@ -7,12 +7,12 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	logforward "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/constants"
-	"github.com/openshift/cluster-logging-operator/pkg/generators/forwarding"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	logforward "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/constants"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/generators/forwarding"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
 	v1 "k8s.io/api/core/v1"
 )
 

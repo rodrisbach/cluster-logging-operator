@@ -18,13 +18,13 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 
-	cl "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	logforwarding "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	k8shandler "github.com/openshift/cluster-logging-operator/pkg/k8shandler"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
-	e2eutil "github.com/openshift/cluster-logging-operator/test/e2e"
-	"github.com/openshift/cluster-logging-operator/test/helpers/oc"
+	cl "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	logforwarding "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	k8shandler "github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
+	e2eutil "github.com/rodrisbach/cluster-logging-operator/test/e2e"
+	"github.com/rodrisbach/cluster-logging-operator/test/helpers/oc"
 )
 
 const (

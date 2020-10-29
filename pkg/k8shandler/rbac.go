@@ -5,7 +5,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
 	rbac "k8s.io/api/rbac/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

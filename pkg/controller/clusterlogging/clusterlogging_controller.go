@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	loggingv1 "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	"github.com/openshift/cluster-logging-operator/pkg/k8shandler"
+	loggingv1 "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler"
 	"github.com/sirupsen/logrus"
 
 	"k8s.io/apimachinery/pkg/api/errors"

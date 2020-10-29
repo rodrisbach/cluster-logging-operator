@@ -5,8 +5,8 @@ import (
 	"time"
 
 	configv1 "github.com/openshift/api/config/v1"
-	"github.com/openshift/cluster-logging-operator/pkg/constants"
-	"github.com/openshift/cluster-logging-operator/pkg/k8shandler"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/constants"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"

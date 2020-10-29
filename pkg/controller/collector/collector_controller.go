@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	loggingv1 "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	collector "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/constants"
-	"github.com/openshift/cluster-logging-operator/pkg/k8shandler"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
+	loggingv1 "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	collector "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/constants"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
 
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"

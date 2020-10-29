@@ -14,10 +14,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	k8shandler "github.com/openshift/cluster-logging-operator/pkg/k8shandler"
-	"github.com/openshift/cluster-logging-operator/pkg/k8shandler/indexmanagement"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
+	k8shandler "github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler/indexmanagement"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
 	elasticsearch "github.com/openshift/elasticsearch-operator/pkg/apis/logging/v1"
 )
 

@@ -11,11 +11,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 
-	cl "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	loggingv1 "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	loggingv1alpha1 "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
-	helpers "github.com/openshift/cluster-logging-operator/test"
+	cl "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	loggingv1 "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	loggingv1alpha1 "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
+	helpers "github.com/rodrisbach/cluster-logging-operator/test"
 	"k8s.io/client-go/kubernetes/scheme"
 )
 

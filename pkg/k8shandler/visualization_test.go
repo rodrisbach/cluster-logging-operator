@@ -7,10 +7,10 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 
-	"github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
 	es "github.com/openshift/elasticsearch-operator/pkg/apis/logging/v1"
 
 	apps "k8s.io/api/apps/v1"

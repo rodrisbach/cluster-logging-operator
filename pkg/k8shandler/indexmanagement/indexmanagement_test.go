@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
 	esapi "github.com/openshift/elasticsearch-operator/pkg/apis/logging/v1"
 )
 

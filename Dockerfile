@@ -1,5 +1,5 @@
 FROM registry.svc.ci.openshift.org/openshift/release:golang-1.12 AS builder
-WORKDIR /go/src/github.com/openshift/cluster-logging-operator
+WORKDIR /go/src/github.com/rodrisbach/cluster-logging-operator
 COPY . .
 RUN make build
 
@@ -12,12 +12,12 @@ RUN INSTALL_PKGS=" \
     yum clean all && \
     mkdir /tmp/ocp-clo && \
     chmod og+w /tmp/ocp-clo
-COPY --from=builder /go/src/github.com/openshift/cluster-logging-operator/bin/cluster-logging-operator /usr/bin/
+COPY --from=builder /go/src/github.com/rodrisbach/cluster-logging-operator/bin/cluster-logging-operator /usr/bin/
 COPY scripts/* /usr/bin/scripts/
 RUN mkdir -p /usr/share/logging/
 COPY files/ /usr/share/logging/
 
-COPY --from=builder /go/src/github.com/openshift/cluster-logging-operator/manifests /manifests
+COPY --from=builder /go/src/github.com/rodrisbach/cluster-logging-operator/manifests /manifests
 RUN rm /manifests/art.yaml
 
 # this is required because the operator invokes a script as `bash scripts/cert_generation.sh`

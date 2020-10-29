@@ -1,9 +1,9 @@
 package k8shandler
 
 import (
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	collector "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	collector "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
 	client "sigs.k8s.io/controller-runtime/pkg/client"
 )
 

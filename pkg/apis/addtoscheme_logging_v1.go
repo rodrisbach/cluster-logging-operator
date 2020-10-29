@@ -1,7 +1,7 @@
 package apis
 
 import (
-	v1 "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
+	v1 "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
 )
 
 func init() {

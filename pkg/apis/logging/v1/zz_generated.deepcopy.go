@@ -5,7 +5,7 @@
 package v1
 
 import (
-	outputs "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1/outputs"
+	outputs "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1/outputs"
 	loggingv1 "github.com/openshift/elasticsearch-operator/pkg/apis/logging/v1"
 	corev1 "k8s.io/api/core/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"

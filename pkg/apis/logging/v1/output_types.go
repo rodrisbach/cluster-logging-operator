@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1/outputs"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1/outputs"
 	corev1 "k8s.io/api/core/v1"
 )
 

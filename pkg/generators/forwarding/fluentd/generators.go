@@ -5,9 +5,9 @@ import (
 	"sort"
 	"text/template"
 
-	logforward "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/generators"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
+	logforward "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/generators"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 

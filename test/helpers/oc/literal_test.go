@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/openshift/cluster-logging-operator/test/helpers/oc"
+	"github.com/rodrisbach/cluster-logging-operator/test/helpers/oc"
 )
 
 var _ = Describe("literal command", func() {

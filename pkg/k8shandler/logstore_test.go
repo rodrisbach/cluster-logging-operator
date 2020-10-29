@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	"github.com/openshift/cluster-logging-operator/pkg/k8shandler/indexmanagement"
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/k8shandler/indexmanagement"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
 	elasticsearch "github.com/openshift/elasticsearch-operator/pkg/apis/logging/v1"
 	esutils "github.com/openshift/elasticsearch-operator/test/utils"
 	v1 "k8s.io/api/core/v1"

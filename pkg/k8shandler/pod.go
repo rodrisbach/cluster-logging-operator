@@ -1,7 +1,7 @@
 package k8shandler
 
 import (
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
 
 	core "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

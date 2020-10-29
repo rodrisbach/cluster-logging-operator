@@ -6,8 +6,8 @@ import (
 
   . "github.com/onsi/ginkgo"
 
-  "github.com/openshift/cluster-logging-operator/pkg/logger"
-  "github.com/openshift/cluster-logging-operator/test/helpers"
+  "github.com/rodrisbach/cluster-logging-operator/pkg/logger"
+  "github.com/rodrisbach/cluster-logging-operator/test/helpers"
 )
 
 var _ = Describe("Fluentd Only Deployment", func() {

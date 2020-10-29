@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	logforward "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/constants"
+	logforward "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/constants"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 

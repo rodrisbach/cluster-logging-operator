@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strconv"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
 	esapi "github.com/openshift/elasticsearch-operator/pkg/apis/logging/v1"
 )
 

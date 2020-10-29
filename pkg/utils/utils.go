@@ -15,7 +15,7 @@ import (
 	"github.com/sirupsen/logrus"
 
 	configv1 "github.com/openshift/api/config/v1"
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

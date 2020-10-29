@@ -4,8 +4,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	test "github.com/openshift/cluster-logging-operator/test"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	test "github.com/rodrisbach/cluster-logging-operator/test"
 )
 
 var _ = Describe("Generating fluentd secure forward output store config blocks", func() {

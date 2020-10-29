@@ -3,8 +3,8 @@ package fluentd
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	logforwarding "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	test "github.com/openshift/cluster-logging-operator/test"
+	logforwarding "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	test "github.com/rodrisbach/cluster-logging-operator/test"
 )
 
 var _ = Describe("Generating fluentd config blocks", func() {

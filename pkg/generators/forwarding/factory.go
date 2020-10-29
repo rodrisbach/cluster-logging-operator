@@ -3,9 +3,9 @@ package forwarding
 import (
 	"fmt"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	logforward "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/generators/forwarding/fluentd"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	logforward "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/generators/forwarding/fluentd"
 )
 
 //NewConfigGenerator create a config generator for a given collector type

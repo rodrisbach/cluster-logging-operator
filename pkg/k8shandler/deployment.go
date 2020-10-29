@@ -3,7 +3,7 @@ package k8shandler
 import (
 	"fmt"
 
-	"github.com/openshift/cluster-logging-operator/pkg/utils"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/utils"
 	"k8s.io/apimachinery/pkg/api/errors"
 
 	apps "k8s.io/api/apps/v1"

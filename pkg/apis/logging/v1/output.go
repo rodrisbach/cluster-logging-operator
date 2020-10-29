@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1/outputs"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1/outputs"
 )
 
 const OutputTypeDefault = "default"

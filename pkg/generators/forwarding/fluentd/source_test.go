@@ -5,8 +5,8 @@ import (
 	. "github.com/onsi/gomega"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	test "github.com/openshift/cluster-logging-operator/test"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	test "github.com/rodrisbach/cluster-logging-operator/test"
 )
 
 var _ = Describe("generating source", func() {

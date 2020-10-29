@@ -5,13 +5,13 @@ import (
 	"fmt"
 
 	configv1 "github.com/openshift/api/config/v1"
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
-	logforwarding "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1alpha1"
-	"github.com/openshift/cluster-logging-operator/pkg/logger"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
+	logforwarding "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1alpha1"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/logger"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	client "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/openshift/cluster-logging-operator/pkg/constants"
+	"github.com/rodrisbach/cluster-logging-operator/pkg/constants"
 	"k8s.io/apimachinery/pkg/types"
 )
 

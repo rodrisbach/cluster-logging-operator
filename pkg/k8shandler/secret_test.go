@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	logging "github.com/openshift/cluster-logging-operator/pkg/apis/logging/v1"
+	logging "github.com/rodrisbach/cluster-logging-operator/pkg/apis/logging/v1"
 
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 )

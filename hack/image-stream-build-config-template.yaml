@@ -42,7 +42,7 @@ parameters:
 -
   description: 'URL for cluster-logging-operator fork'
   name: CL_OP_GITHUB_URL
-  value: https://github.com/openshift/cluster-logging-operator
+  value: https://github.com/rodrisbach/cluster-logging-operator
 -
   description: 'branch for cluster-logging-operator fork'
   name: CL_OP_GITHUB_BRANCH

@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Clone this repository into `$GOPATH/github.com/openshift/cluster-logging-operator`
+Clone this repository into `$GOPATH/github.com/rodrisbach/cluster-logging-operator`
 
 Install `podman`. For example on  Fedora:
 ```
